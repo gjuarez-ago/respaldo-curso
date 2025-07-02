@@ -12,10 +12,10 @@ class LoginResponse {
   }
 
   Map<dynamic, dynamic> toJson() {
-    final _data = <dynamic, dynamic>{};
-    _data['user'] = user.toJson();
-    _data['token'] = token;
-    return _data;
+    final data = <dynamic, dynamic>{};
+    data['user'] = user.toJson();
+    data['token'] = token;
+    return data;
   }
 }
 
@@ -101,32 +101,32 @@ class User {
   }
 
   Map<dynamic, dynamic> toJson() {
-    final _data = <dynamic, dynamic>{};
-    _data['userId'] = userId;
-    _data['firstName'] = firstName;
-    _data['lastName'] = lastName;
-    _data['username'] = username;
-    _data['supplierNumber'] = supplierNumber;
-    _data['employeeNumber'] = employeeNumber;
-    _data['centerCost'] = centerCost;
-    _data['profileImageUrl'] = profileImageUrl;
-    _data['lastLoginDate'] = lastLoginDate;
-    _data['getLastLoginDateDisplay'] = getLastLoginDateDisplay;
-    _data['positionEmployee'] = positionEmployee;
-    _data['clabe'] = clabe;
-    _data['joinDate'] = joinDate;
-    _data['role'] = role;
-    _data['authorities'] = authorities;
-    _data['numberSociety'] = numberSociety;
-    _data['businessName'] = businessName;
-    _data['usernameSAP'] = usernameSAP;
-    _data['permissions'] = permissions.map((e) => e.toJson()).toList();
-    _data['id'] = id;
-    _data['active'] = active;
-    _data['supplier'] = supplier;
-    _data['notLocked'] = notLocked;
-    _data['rfcsupplier'] = rfcsupplier;
-    return _data;
+    final data = <dynamic, dynamic>{};
+    data['userId'] = userId;
+    data['firstName'] = firstName;
+    data['lastName'] = lastName;
+    data['username'] = username;
+    data['supplierNumber'] = supplierNumber;
+    data['employeeNumber'] = employeeNumber;
+    data['centerCost'] = centerCost;
+    data['profileImageUrl'] = profileImageUrl;
+    data['lastLoginDate'] = lastLoginDate;
+    data['getLastLoginDateDisplay'] = getLastLoginDateDisplay;
+    data['positionEmployee'] = positionEmployee;
+    data['clabe'] = clabe;
+    data['joinDate'] = joinDate;
+    data['role'] = role;
+    data['authorities'] = authorities;
+    data['numberSociety'] = numberSociety;
+    data['businessName'] = businessName;
+    data['usernameSAP'] = usernameSAP;
+    data['permissions'] = permissions.map((e) => e.toJson()).toList();
+    data['id'] = id;
+    data['active'] = active;
+    data['supplier'] = supplier;
+    data['notLocked'] = notLocked;
+    data['rfcsupplier'] = rfcsupplier;
+    return data;
   }
 }
 
@@ -147,10 +147,10 @@ class Permissions {
   }
 
   Map<dynamic, dynamic> toJson() {
-    final _data = <dynamic, dynamic>{};
-    _data['keyPermission'] = keyPermission;
-    _data['description'] = description;
-    _data['idUserPermission'] = idUserPermission;
-    return _data;
+    final data = <dynamic, dynamic>{};
+    data['keyPermission'] = keyPermission;
+    data['description'] = description;
+    data['idUserPermission'] = idUserPermission;
+    return data;
   }
 }

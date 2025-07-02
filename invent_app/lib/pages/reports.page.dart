@@ -115,7 +115,7 @@ class _ReportsPageState extends State<ReportsPage> {
                     ),
                   ),
                   SizedBox(height: 10),
-                  Container(
+                  SizedBox(
                     height: 250,
                     child: BarChart(
                       BarChartData(
@@ -225,7 +225,7 @@ class _ReportsPageState extends State<ReportsPage> {
                     ),
                   ),
                   SizedBox(height: 10),
-                  Container(
+                  SizedBox(
                     height: 250,
                     child: LineChart(
                       LineChartData(
@@ -319,7 +319,7 @@ class _ReportsPageState extends State<ReportsPage> {
                     ),
                   ),
                   SizedBox(height: 10),
-                  Container(
+                  SizedBox(
                     height: 300,
                     child: PieChart(
                       PieChartData(

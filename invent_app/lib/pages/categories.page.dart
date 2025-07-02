@@ -40,7 +40,7 @@ class _CategoriesPageState extends State<CategoriesPage> {
         child: Column(
           children: [
             // Filtros (Scroll horizontal seguro)
-            Container(
+            SizedBox(
               height: 60,
               child: SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -86,8 +86,8 @@ class _CategoriesPageState extends State<CategoriesPage> {
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple.shade600,
-        child: Icon(Icons.add, color: Colors.white),
         onPressed: _showCategoryForm,
+        child: Icon(Icons.add, color: Colors.white),
       ),
     );
   }

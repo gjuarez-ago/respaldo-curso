@@ -10,7 +10,7 @@ class WareHousePage extends StatefulWidget {
 }
 
 class _WareHousePageState extends State<WareHousePage> {
- List<Map<String, dynamic>> _warehouses = [
+ final List<Map<String, dynamic>> _warehouses = [
     {
       'id': 1,
       'name': 'Almacén Principal',

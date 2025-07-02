@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:invent_app/bloc/bloc_observer.dart';
 import 'package:invent_app/pages/home.page.dart';
-import 'package:invent_app/pages/login.page.dart';
 import 'package:invent_app/router/routes.dart';
 import 'package:invent_app/services/blos.service.dart';
 
